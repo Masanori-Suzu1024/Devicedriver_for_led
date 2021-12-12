@@ -18,6 +18,22 @@
 
 
 # 使用方法
+(インストール)  
+以下コマンドを実行してください.  
+
+  
+  $ git clone   
+  $ cd Devicedriver_for_led  
+  $ make  
+  $ sudo insmod myled.ko  
+  $ sudo chmod 666 /dev/myled0  
+  
+(アンインストール)  
+以下コマンドを実行してください。  
+  
+  $ sudo rmmod myled  
+  $ make clean
+    
 
 # 
 
