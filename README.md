@@ -30,7 +30,7 @@ gpio pin 配置
 以下コマンドを実行してください.  
 
   
-  $ git clone   
+  $ git clone https://github.com/Masanori-Suzu1024/Devicedriver_for_led.git  
   $ cd Devicedriver_for_led  
   $ make  
   $ sudo insmod myled.ko  
