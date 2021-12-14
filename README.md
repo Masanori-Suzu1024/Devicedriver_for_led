@@ -11,7 +11,7 @@
 ・ Raspberry Pi 4 Computer Model B  
 ・ 赤色LED x 3  
 ・ 緑色LED x 1
-・ 抵抗220Ω x 3  
+・ 抵抗220Ω x 4  
 ・ ブレッドボード　  
 ・ ジャンパ線(オス-メス) x 6  
 ・ ジャンパ戦(オス-オス) x 4
