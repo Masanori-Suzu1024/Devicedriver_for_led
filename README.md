@@ -67,6 +67,7 @@ gpio pin 配置
   $ echo 5 > /dev/myled0
   
 # 動作の動画  
+https://youtu.be/klIfrCBkLFM
 
 # ライセンス  
 GNU General Public License v2.0
