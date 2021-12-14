@@ -17,13 +17,16 @@
 ・ ジャンパ戦(オス-オス) x 4
 
 # 回路  
+回路図  
+![回路図1-1](https://user-images.githubusercontent.com/92065217/145994626-53226158-49ea-4d3d-932c-b49154b00707.png)  
 gpio pin 配置  
 > 引用 
 DATASHEET Raspberry Pi 4 Model B
 ![スクリーンショット (101)](https://user-images.githubusercontent.com/92065217/145947513-d1888780-0faf-410d-aac0-9f29a3e14071.png)  
   
 回路の写真  
-![回路の写真](https://user-images.githubusercontent.com/92065217/145945369-ef5bb0d3-c6ed-435c-aaad-389330ddf34d.jpg)
+
+![回路の写真](https://user-images.githubusercontent.com/92065217/145945369-ef5bb0d3-c6ed-435c-aaad-389330ddf34d.jpg)  
 画像ではGND(14番ピン, 39番ピン)が２つ接続されていますが、これは私が使用したブレッドボードの仕様で、4枚のブレッドボードを１つに組み合わせたボードを使用しているため両端にGNDを接続しています。  
 通常のブレッドボードを使用される場合はGNDを１つ接続すれば問題ありません。
 
