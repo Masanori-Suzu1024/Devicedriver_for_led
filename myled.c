@@ -4,6 +4,7 @@
 #include<linux/device.h>
 #include<linux/uaccess.h>
 #include<linux/io.h>
+#include<linux/delay.h>
 
 MODULE_AUTHOR("Ryuichi Ueda & 20C1064_Masanori Suzuki");
 MODULE_DESCRIPTION("driver for LED control");
@@ -61,9 +62,17 @@ static ssize_t led_write(struct file* filp, const char* buf, size_t count, loff_
 		gpio_base[10] = 1 << 25;
 
 		gpio_base[7] = 1 << 22;
+		msleep(1000);
 
 		gpio_base[7] = 1 << 23;
+		msleep(1000);
+
 		gpio_base[7] = 1 << 24;
+		msleep(1000);
+
+		gpio_base[10] = 1 << 22;
+		gpio_base[10] = 1 << 23;
+		gpio_base[10] = 1 << 24;
 		gpio_base[7] = 1 << 25;
 
 	}
