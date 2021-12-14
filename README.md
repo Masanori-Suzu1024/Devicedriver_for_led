@@ -18,6 +18,8 @@
 
 # 回路  
 gpio pin 配置  
+> 引用 
+DATASHEET Raspberry Pi 4 Model B
 ![スクリーンショット (101)](https://user-images.githubusercontent.com/92065217/145947513-d1888780-0faf-410d-aac0-9f29a3e14071.png)  
   
 回路の写真  
