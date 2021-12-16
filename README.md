@@ -31,45 +31,49 @@ DATASHEET Raspberry Pi 4 Model B
 通常のブレッドボードを使用される場合はいずれかのGNDを１つ接続すれば問題ありません。
 
 # 使用方法
-(インストール)  
-以下コマンドを実行してください.  
+### インストール  
+以下のコマンドを実行してください.  
 
-  
-  $ git clone https://github.com/Masanori-Suzu1024/Devicedriver_for_led.git  
+  ```
+  $ git clone https://github.com/Masanori-Suzu1024/Devicedriver_for_led.git     
   $ cd Devicedriver_for_led  
   $ make  
   $ sudo insmod myled.ko  
   $ sudo chmod 666 /dev/myled0  
-  
-(アンインストール)  
-以下コマンドを実行してください。  
-  
+  ```  
+    
+    
+  ### アンインストール  
+  以下コマンドを実行してください。  
+  ```
   $ sudo rmmod myled  
   $ make clean
-    
-### すべてのledを消灯させる  
+  ```  
   
+  ### 1. すべてのLEDを消灯させる  
+  ```
   $ echo 0 > /dev/myled0
-  
-### led1を点灯させる   
-  
+  ```
+  ### 2. LED1を点灯させる   
+  ```
   $ echo 1 > /dev/myled0
-  
-### led2を点灯させる 
-  
+  ```
+  ### 3. LED2を点灯させる 
+  ```
   $ echo 2 > /dev/myled0
-  
-### led3を点灯させる 
-  
+  ```
+  ### 4. LED3を点灯させる 
+  ```
   $ echo 3 > /dev/myled0
-  
-### led4を点灯させる 
-  
+  ```
+  ### 5. LED4を点灯させる 
+  ```
   $ echo 4 > /dev/myled0
-  
-### スタートシグナルの動作を行う 
-  
+  ```
+  ### 6. スタートシグナルの動作を行う 
+  ```
   $ echo 5 > /dev/myled0
+  ```  
   
 # 動作の動画  
 https://youtu.be/klIfrCBkLFM
